@@ -46,8 +46,8 @@ class Teacher:
 if __name__ == '__main__':
     student1 = Student('สมเกียรติ',16,'ชาย')
     student2 = Student('สมใจ',14,'หญิง')
-    
     teacher1 = Teacher('สมศรี','หญิง','คณิตศาสตร์')
+    speacial_student = SpecialStudent('หมู',15,'ชาย',)
     
     #print(teacher1.name)
     #print(teacher1.subject)
@@ -58,4 +58,5 @@ if __name__ == '__main__':
     teacher1.teach()
     student1.study()
     student2.study()
-
+    print('----- 12.30 น. ------')
+    speacial_student.hello()
